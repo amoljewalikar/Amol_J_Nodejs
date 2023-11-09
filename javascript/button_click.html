@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Button Examples</h2>
+
+    <button
+      type="button"
+      onclick="document.getElementById('date').innerHTML = Date()"
+    >
+      Click to show current Date and Time
+    </button>
+    <p id="date"></p>
+
+    <p id="change">JavaScript can change the style of an HTML element.</p>
+    <button
+      type="button"
+      onclick="document.getElementById('change').style.fontSize='25px'"
+    >
+      Click Me!
+    </button>
+
+    <p id="hide">JavaScript can hide HTML elements.</p>
+    <button
+      type="button"
+      onclick="document.getElementById('hide').style.display='none'"
+    >
+      Click Me!
+    </button>
+
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="show" style="display: none">Hello JavaScript!</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('show').style.display='block'"
+    >
+      Click Me!
+    </button>
+  </body>
+</html>
