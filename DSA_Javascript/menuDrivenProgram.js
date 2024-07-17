@@ -19,15 +19,15 @@ function handleInput(option) {
   switch (option) {
     case '1':
       console.log('\nYou have selected Queue.');
-      require('./dsaQueue');
+      require('./queue');
       break;
     case '2':
       console.log('\nYou have selected Stack.');
-      require('./dsaStack');
+      require('./stack');
       break;
     case '3':
       console.log('\nYou have selected Linked List.');
-      require('./dsaLinkedList');
+      require('./linkedList');
       break;
     case '4':
       console.log('Exiting the program.');
